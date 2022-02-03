@@ -38,10 +38,10 @@ img {
 }
 
 .row {
-  text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   color: #430f58;
   font-weight: bold;
+  text-align: center;
 }
 
 .button {
@@ -56,25 +56,19 @@ img {
   margin: 2px 2px;
   border-radius: 4px;
 }
-.btn {
-  background-color: #a393eb;
-  border: none;
-  color: white;
-  padding: 8px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 2px 2px;
-  border-radius: 4px;
-}
+
 input[type="text"] {
   border: 2px solid#430f58;
   border-radius: 4px;
   font-size: 12px;
   padding: 6px;
 }
+
 ul {
   list-style-type: none;
-  text-align: left;
+  text-align: center;
+  font-size: 14px;
+}
+.search-form {
+  text-align: center;
 }
