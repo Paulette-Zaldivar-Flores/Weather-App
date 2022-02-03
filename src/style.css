@@ -1,0 +1,80 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #430f58;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 1000;
+  text-align: center;
+  color: #430f58;
+}
+
+h3,
+h4 {
+  font-size: 12px;
+  color: #430f58;
+  font-weight: bold;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  background: linear-gradient(
+    to top,
+    #505285 0%,
+    #585e92 12%,
+    #65689f 25%,
+    #7474b0 37%,
+    #7e7ebb 50%,
+    #8389c7 62%,
+    #9795d4 75%,
+    #a2a1dc 87%,
+    #b5aee4 100%
+  );
+}
+
+.row {
+  text-align: center;
+  font-size: 16px;
+  color: #430f58;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #a393eb;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  border-radius: 4px;
+}
+.btn {
+  background-color: #a393eb;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  border-radius: 4px;
+}
+input[type="text"] {
+  border: 2px solid#430f58;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 6px;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+}
