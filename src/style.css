@@ -1,7 +1,24 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: #430f58;
+  display: table-cell;
+  vertical-align: middle;
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
 }
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
 h1,
 h2,
 h3,
@@ -71,4 +88,22 @@ ul {
 }
 .search-form {
   text-align: center;
+}
+.footer {
+  text-align: center;
+  font-size: 12px;
+}
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
 }
