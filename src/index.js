@@ -25,7 +25,7 @@ let months = [
   "Sep",
   "Oct",
   "Nov",
-  "Dec"
+  "Dec",
 ];
 let month = months[now.getMonth()];
 
@@ -49,6 +49,14 @@ function showTemperature(response) {
   let description = response.data.weather[0].main;
   let currentDescription = document.querySelector("#description");
   currentDescription.innerHTML = `${description}`;
+  let precipitation = response.data.main.precipitation;
+  let currentPrecipitation = document.querySelector("#preciiattion");
+  currentPrecipitation.innerHTML = `${precipitation}`;
+  leticonElement = document.querySelector("#icon");
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 
 function search(event) {
