@@ -18,11 +18,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" />
-    <title>Weather ☁️</title>
+    <title>Weather App ☁️</title>
   </head>
   <body>
     <div class="container">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 18rem">
         <div class="card-body">
           <div class="card bg-dark text-white">
             <img src="images/blue.jpg" class="card-img" alt="tower" />
@@ -40,34 +40,35 @@
                       />
                       <input type="submit" value="search" class="button" />
                     </form>
-                    <br>
+                    <br />
                     <span class="city" id="city">
                       <h1><strong>Tokyo</strong></h1></span
                     >
-                    <img src="" alt = clear id = "icon" />
+                    <img
+                      src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                      alt="clear"
+                      id="icon"
+                    />
 
                     <h2>
                       <span class="temperature" id="temperature"> 4 </span>
 
                       <span class="units">
-                        <a id="celsius-link">°C </a> |
-                        <a href "#" id="fahrenheit-link"> °F </a>
+                        <a href="#" id="celsius-link">°C </a> |
+                        <a href="#" id="fahrenheit-link"> °F </a>
                       </span>
-              
+
                       <div class="description" id="description">Windy</div>
-              
+
                       <ul>
-                        <li>Precipitation:<span id = "precipitation">%</span></li>
                         <li>Humidity: <span id="humidity"></span>%</li>
-                        <li>Wind: <span id="wind"></span>km / h
-                  </li>
+                        <li>Wind: <span id="wind"></span>km / h</li>
                       </ul>
                     </h2>
 
                     <h3>🗓 Sun 1, 2022</h3>
                     <h4>⏰ 12:35 pm</h4>
 
-                    
                     <div class="row">
                       <div class="col day">Mon</div>
                       <div class="col day">Tue</div>
@@ -103,15 +104,11 @@
       </div>
     </div>
     <p class="footer">
-        Open-Source Code by
-        <a
-          href="https://github.com/Void321/artemis"
-          target="_blank"
-        >
-          Paulette Zaldivar Flores
-        </a>
-      </p>
-
+      Open-Source Code by
+      <a href="https://github.com/Void321/artemis" target="_blank">
+        Paulette Zaldivar Flores
+      </a>
+    </p>
   </body>
 </html>
 <script type="text/javascript" src="src/index.js"></script>
