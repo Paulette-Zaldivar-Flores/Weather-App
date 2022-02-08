@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  color: #9e13d4;
+
   display: table-cell;
   vertical-align: middle;
   background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
@@ -101,6 +101,10 @@ ul {
 .footer {
   text-align: center;
   font-size: 12px;
+  color: rgb(238, 67, 158);
+}
+.footer a {
+  text-decoration: none;
 }
 
 .units .active {
@@ -109,5 +113,9 @@ ul {
   text-decoration: none;
 }
 .units .active:hover {
+  text-decoration: none;
+}
+.units a {
+  color: rgb(238, 67, 158);
   text-decoration: none;
 }
