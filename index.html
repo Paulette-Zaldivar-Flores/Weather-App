@@ -22,79 +22,85 @@
   </head>
   <body>
     <div class="container">
-      <div class="card" style="width: 18rem">
+      <div class="card">
         <div class="card-body">
-          <div class="card bg-dark text-white">
-            <img src="images/blue.jpg" class="card-img" alt="clouds" />
-            <div class="card-img-overlay">
-              <div class="bar">
-                <div class="row">
-                  <div class="col 4">
-                    <form id="search-form">
-                      <input
-                        type="text"
-                        placeholder="Search for a City"
-                        autocomplete="off"
-                        autofocus="on"
-                        id="search-text-input"
-                      />
-                      <input type="submit" value="search" class="button" />
-                    </form>
-                    <br />
-                    <span class="city" id="city">
-                      <h1><strong>Tokyo</strong></h1></span
-                    >
-                    <img
-                      src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-                      alt="clear"
-                      id="icon"
+          <span class="clouds">
+            <img
+              src="images/flower.jpg"
+              class="card-img"
+              alt="clouds"
+              width="400"
+              height="550"
+            />
+          </span>
+          <div class="card-img-overlay">
+            <div class="bar">
+              <div class="row">
+                <div class="col 4">
+                  <form id="search-form">
+                    <input
+                      type="text"
+                      placeholder="Search for a City"
+                      autocomplete="off"
+                      autofocus="on"
+                      id="search-text-input"
                     />
+                    <input type="submit" value="search" class="button" />
+                  </form>
+                  <br />
+                  <span class="city" id="city">
+                    <h1><strong>Tokyo</strong></h1></span
+                  >
+                  <img
+                    src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                    alt="clear"
+                    id="icon"
+                  />
 
-                    <h2>
-                      <span class="temperature" id="temperature"> 4 </span>
+                  <h2>
+                    <span class="temperature" id="temperature"> 4 </span>
 
-                      <span class="units">
-                        <a href="#" id="celsius-link" class="active">°C </a> |
-                        <a href="#" id="fahrenheit-link" class="active"> °F </a>
-                      </span>
+                    <span class="units">
+                      <a href="#" id="celsius-link" class="active">°C </a> |
+                      <a href="#" id="fahrenheit-link" class="active"> °F </a>
+                    </span>
 
-                      <div class="description" id="description">Windy</div>
+                    <div class="description" id="description">Windy</div>
 
-                      <ul>
-                        <li>Humidity: <span id="humidity"></span>%</li>
-                        <li>Wind: <span id="wind"></span>km / h</li>
-                      </ul>
-                    </h2>
+                    <ul>
+                      <li>Humidity: <span id="humidity"></span>%</li>
+                      <li>Wind: <span id="wind"></span>km / h</li>
+                    </ul>
+                  </h2>
 
-                    <h3>🗓 Sun 1, 2022</h3>
-                    <h4>⏰ 12:35 pm</h4>
+                  <h3>🗓 Sun 1, 2022</h3>
+                  <h4>⏰ 12:35 pm</h4>
 
-                    <div class="row">
-                      <div class="col day">Mon</div>
-                      <div class="col day">Tue</div>
-                      <div class="col day">Wed</div>
-                      <div class="col day">Thu</div>
-                      <div class="col day">Fri</div>
-                    </div>
+                  <div class="row" id="forecast">
+                    <div class="col day">Mon</div>
+                    <div class="col day">Tue</div>
+                    <div class="col day">Wed</div>
+                    <div class="col day">Thu</div>
+                    <div class="col day">Fri</div>
+                  </div>
 
-                    <div class="row">
-                      <div class="col snow">❄️</div>
+                  <div class="row" id="forecast">
+                    <div class="col snow">❄️</div>
 
-                      <div class="col wind">🌬</div>
+                    <div class="col wind">🌬</div>
 
-                      <div class="col sun">☀️</div>
+                    <div class="col sun">☀️</div>
 
-                      <div class="col cloudy-sun">🌤</div>
+                    <div class="col cloudy-sun">🌤</div>
 
-                      <div class="col mix">🌦</div>
-                    </div>
-                    <div class="row">
-                      <div class="col temp">-1°</div>
-                      <div class="col temp">-3°</div>
-                      <div class="col temp">10°</div>
-                      <div class="col temp">13°</div>
-                      <div class="col temp">17°</div>
-                    </div>
+                    <div class="col mix">🌦</div>
+                  </div>
+                  <div class="row" id="forecast">
+                    <div class="col temp">-1°</div>
+                    <div class="col temp">-3°</div>
+                    <div class="col temp">10°</div>
+                    <div class="col temp">13°</div>
+                    <div class="col temp">17°</div>
                   </div>
                 </div>
               </div>
