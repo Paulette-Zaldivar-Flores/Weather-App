@@ -18,6 +18,24 @@ html {
   display: table;
   margin: auto;
 }
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.icon {
+  margin: 0;
+  padding: 0px 0px;
+}
 
 h1,
 h2,
@@ -97,21 +115,12 @@ ul {
   text-align: center;
   font-size: 12px;
 }
-html,
-body {
-  height: 100%;
-}
 
-html {
-  display: table;
-  margin: auto;
+.units .active {
+  color: #430f58;
+  cursor: default;
+  text-decoration: none;
 }
-
-body {
-  display: table-cell;
-  vertical-align: middle;
-}
-.icon {
-  margin: 0;
-  padding: 0px 0px;
+.units .active:hover {
+  text-decoration: none;
 }

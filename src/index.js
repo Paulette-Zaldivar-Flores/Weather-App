@@ -72,13 +72,19 @@ function search(event) {
 function convertToFahrenheit(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
+  linkCelsius.classList.remove("active");
+  linkFahrenheit.classList.add("active");
   let temperature = temperatureElement.innerHTML;
   temperature = Number(temperature);
-  temperatureElement.innerHTML = Math.round((temperature * 9) / 5 + 32);
+  temperatureElement.innerHTML = Math.round((celsiusTemperature * 9) / 5 + 32);
 }
 
 function convertToCelsius(event) {
   event.preventDefault();
+  linkCelsius.classList.add("active");
+  linkFahrenheit.classList.remove("active");
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
 let linkFahrenheit = document.querySelector("#fahrenheit-link");
