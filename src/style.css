@@ -3,11 +3,7 @@ body {
   color: #9e13d4;
   display: table-cell;
   vertical-align: middle;
-  background: radial-gradient(
-    592px at 48.2% 50%,
-    rgba(255, 255, 249, 0.6) 0%,
-    rgb(160, 199, 254) 74.6%
-  );
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 html,
 body {
@@ -54,18 +50,7 @@ h4 {
 }
 
 .card {
-  background: linear-gradient(
-    to top,
-    #505285 0%,
-    #585e92 12%,
-    #65689f 25%,
-    #7474b0 37%,
-    #7e7ebb 50%,
-    #8389c7 62%,
-    #9795d4 75%,
-    #a2a1dc 87%,
-    #b5aee4 100%
-  );
+  background: #8594e4;
   height: 600px;
   width: 600px;
 }
