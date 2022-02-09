@@ -7,6 +7,6 @@ Communication tool
 Knowledge level (basic understanding)
 -HTML
 -CSS 
-JavaScript
+-JavaScript
 
 
