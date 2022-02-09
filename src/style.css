@@ -51,19 +51,12 @@ h4 {
 
 .card {
   background: #8594e4;
-  height: 600px;
+  height: 650px;
   width: 600px;
 }
 
 .clouds {
-  opacity: 80%;
-}
-
-.row {
-  text-align: center;
-  font-size: 16px;
-  color: #f1ebf3;
-  font-weight: bold;
+  opacity: 70%;
 }
 
 .button {
@@ -118,4 +111,25 @@ ul {
 .units a {
   color: rgb(238, 67, 158);
   text-decoration: none;
+}
+
+.row {
+  text-align: center;
+  font-size: 16px;
+  color: #f1ebf3;
+  font-weight: bold;
+}
+
+.forecast {
+  margin: 20px;
+  padding-left: 60px;
+  text-align: center;
+}
+
+.date {
+  font-size: 20px;
+}
+
+.forecast .min {
+  opacity: 0.3px;
 }
