@@ -87,6 +87,34 @@ function convertToCelsius(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#weather-forecast");
+
+  let forecastHTML = `<div class = "row"> `;
+
+  let days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `<div class="col-2">
+                        <div class="date">${day}</div>
+                        <img
+                          src="https://ssl.gstatic.com/onebox/weather/48/snow_s_rain.png"
+                          alt=""
+                          width="36"
+                        />
+                        <div class="temperature">
+                          <span class="min"> -1° </span>
+                          <span class="max"> 0° </span>
+                        </div>
+                      </div>`;
+  });
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
+displayForecast();
+
 let linkFahrenheit = document.querySelector("#fahrenheit-link");
 linkFahrenheit.addEventListener("click", convertToFahrenheit);
 
