@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lobster", cursive;
 
   display: table-cell;
   vertical-align: middle;
@@ -39,24 +39,29 @@ h3,
 h4 {
   font-weight: 1000;
   text-align: center;
-  color: #f1ebf3;
+  color: #ffffff;
 }
 
 h3,
 h4 {
-  font-size: 12px;
-  color: #f1ebf3;
+  font-size: 14px;
+  color: #ffffff;
   font-weight: bold;
 }
 
 .card {
-  background: #8594e4;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(186, 190, 245) 0%,
+    rgb(192, 192, 245) 33.1%,
+    rgb(218, 203, 246) 90%
+  );
   height: 650px;
   width: 600px;
 }
 
 .clouds {
-  opacity: 70%;
+  opacity: 60%;
 }
 
 .button {
@@ -101,7 +106,7 @@ ul {
 }
 
 .units .active {
-  color: #f1ebf3;
+  color: #ffffff;
   cursor: default;
   text-decoration: none;
 }
@@ -116,12 +121,13 @@ ul {
 .row {
   text-align: center;
   font-size: 16px;
-  color: #f1ebf3;
+  color: #ffffff;
   font-weight: bold;
 }
 
 .forecast {
   margin: 20px;
+  border-radius: 5px;
 
   text-align: center;
 }
@@ -130,6 +136,6 @@ ul {
   font-size: 20px;
 }
 
-.forecast .min {
-  opacity: 0.3px;
+.weather-forecast-temperature-min {
+  opacity: 70%;
 }

@@ -128,9 +128,11 @@ function displayForecast(response) {
                         />
                         <div class="weather-forecast-temperatures">
           <span class= "weather-forecast-temperature-max"> 
-          ${Math.round(forecastDay.temp.max)}</span>
+          ${Math.round(forecastDay.temp.max)}°</span>
+        
+          
           <span class="weather-forecast-temperature-min"> 
-          ${Math.round(forecastDay.temp.min)}
+          ${Math.round(forecastDay.temp.min)}°
                         </span>
                         </div>
                       </div>
@@ -151,3 +153,13 @@ let celsiusTemperature = null;
 
 let linkCelsius = document.querySelector("#celsius-link");
 linkCelsius.addEventListener("click", convertToCelsius);
+
+function showPosition(position) {
+  let apiKey = "b81e7138d4f18ecdce4149c89f6f0058";
+  let lat = position.coords.latitude;
+  let lon = position.coords.longitude;
+  let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
+  axios.get(url).then(showTemperature);
+}
+
+navigator.geolocation.getCurrentPosition(showPosition);
