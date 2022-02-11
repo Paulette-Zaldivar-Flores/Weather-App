@@ -17,4 +17,5 @@ Knowledge level (basic understanding)
 
 # PREVIEW
 
-<img width="623" alt="API" src="https://user-images.githubusercontent.com/96970580/153129514-2614a239-9756-48d3-8371-0ef98d818f4d.png">
+
+<img width="646" alt="Weather App" src="https://user-images.githubusercontent.com/96970580/153529049-64a7dd81-f45d-4d62-ba3a-b7c6b7ae7b2c.png">
