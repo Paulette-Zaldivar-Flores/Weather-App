@@ -14,16 +14,28 @@
 
 
 ## General Information
-<ul><li>The goal of this project was to develope a weather application using JavaScript</li></ul>
+<ul><li>The goal of this project was to develop a weather application using JavaScript</li></ul>
 
 
 ## Technologies Used
 <ul>
   <li>JavaScript</li>
   <li>HTML</li>
-  <li>CSS</li>
-  <li>Bootstrap</li>
-  <li>Axios</li></ul>
+  <li>CSS</li></ul>
+  
+  
+## Communication Tool
+  <ul> <li>Axios</li></ul>
+  
+  
+## Framework 
+<ul>
+  <li>Bootstrap</li></ul>
+    
+  
+  
+  
+ 
   
 
 
