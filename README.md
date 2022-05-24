@@ -57,7 +57,7 @@ To do:
 
 ## Acknowledgements
  
-  <ul><li>This README.md was inspired by [ritaly](https://github.com/ritaly)</li></ul>
+ <ul><li>This README.md was inspired by <a href ="https://github.com/ritaly"> Ritaly</a></li></ul>
 
 
 ## Contact
