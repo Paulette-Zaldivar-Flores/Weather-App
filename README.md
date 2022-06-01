@@ -1,6 +1,6 @@
 # Weather App 🌡
 > A web app using a live weather API
-> Live demo [_here_](https://void321.github.io/Weather-App/).
+> Live demo [_here_](https://paulette-zaldivar-flores.github.io/Weather-App/).
 
 ## Table of Contents
 * [General Info](#general-information)
